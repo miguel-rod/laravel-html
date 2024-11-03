@@ -11,3 +11,7 @@ Luckily, bumping the version number in `composer.json` and running `composer upd
 
 - The package now ships with a `html()` function by default, which returns an instance of the `Html` builder class. If you've defined your own method, you'll need to remove it.
 - Various type hints have been removed throughout the package, if you've extended a class to override it's methods, you'll need to update them accordingly (everything still behaves the same!)
+
+### From v2 to v3
+
+- The function `readonly()` has been renamed to `isReadOnly()`
